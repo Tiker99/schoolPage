@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="main-content">
+    
+    <h1>Welcome to Our School</h1>
+    <div class="main-image">
+        <img src="{{ url_for('static', filename='images/school_front.jpg') }}" alt="Our School">
+    </div>
+    <div class="about-school">
+        <h2>The best school in the world</h2>
+        <p>Our school has been a pillar of excellence in education for over 50 years. With modern classrooms, dedicated teachers, and a strong commitment to extracurricular activities, we aim to nurture both the academic and personal growth of every student.</p>
+    </div>
+</div>
+{% endblock %}
