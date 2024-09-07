@@ -8,9 +8,11 @@
 </head>
 <body>
     <nav>
+        <a href="{{ url_for('home') }}"><img style="height: 50px; border-radius: 50%;" src="{{ url_for('static', filename='images/logo.webp') }}"></a>
+
         <ul>
             <li><a href="{{ url_for('home') }}">Home</a></li>
-            <li><a href="{{ url_for('classes') }}">Classes</a></li>
+            <li><a href="{{ url_for('schedule') }}">Schedule</a></li>
             <li><a href="{{ url_for('classrooms') }}">Classrooms</a></li>
             <li><a href="{{ url_for('events_handler') }}">Sport Events</a></li>
             <li><a href="{{ url_for('students') }}">Top Students</a></li>

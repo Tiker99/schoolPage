@@ -6,12 +6,16 @@ nav {
     background-color: #333;
     color: white;
     padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    margin-right: 20%;
 }
 
 nav ul li {
@@ -46,6 +50,9 @@ nav ul li a {
 .main-image {
     position: relative;
     text-align: center;
+    display: flex;
+    column-gap: 50px;
+    height: 500px;
 }
 
 .main-image img {
@@ -53,6 +60,9 @@ nav ul li a {
     height: auto;
 }
 
+iframe {
+    height: 500px;
+}
 .main-image h1 {
     position: absolute;
     top: 50%;
@@ -134,4 +144,13 @@ form {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: lightgreen;
+
 }
